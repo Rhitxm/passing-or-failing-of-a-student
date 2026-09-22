@@ -5,10 +5,10 @@ int main() {
    printf("enter your marks:");
     scanf("%d", &marks);
     if (marks>30){
-        printf("PASS");
+        printf("PASS\n");
     }
     else if (marks<=30){
-        printf("FAIL");
+        printf("FAIL\n");
     }
     return 0;
 }
